@@ -6,11 +6,17 @@
 .header{
     background-color: #00C3FF;
     display:inline-block;
+    width: 100%;
+}
+.logo{
+    max-width: 500px;
+    align-items:;
 }
 .banner{
     width: 100%;
     height: auto;
     position: absolute;
+   
 }
 .BannerRegistro{
     position: relative;
@@ -42,8 +48,8 @@ form{
     width: 27vw;
     height: 650px;
     padding: 20px 20px 20px 20px;
-    position: relative;
-    justify-self: center;
+    /*position: relative;
+    justify-self: center;*/
 }
 
 .formulario p{
@@ -70,3 +76,41 @@ form{
 button{
     position: absolute;
 }
+.aus p {
+    color: #005fc6;
+    font-family: 'monserrat-black';
+    font-size: 1.50em;
+    margin-top: 2rem;
+
+}
+img, video{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: block;
+}
+.dedos{
+    background-image: url(./img/grupo-ok.png);
+    background-size: auto;
+    max-width: 583px;
+    height: 784px;
+
+}
+#slider{
+    /*margin-left: 120px;
+    margin-right: 230px;
+    margin-top: 220px;*/
+    overflow: hidden;
+}
+#slider ul{
+    list-style-type: none;
+    align-items: center;
+    /*display: flex;
+    padding: 0;
+    /*width: 70vw;*/
+    animation: cambio 20s infinite linear;  
+}
+#slider li{
+    display: inline;
+    /*padding: 10px;*/
+    list-style: none;
