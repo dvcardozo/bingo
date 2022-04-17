@@ -10,17 +10,18 @@
 }
 .logo{
     max-width: 500px;
-    align-items:;
+    align-items: left;
 }
 .banner{
     width: 100%;
     height: auto;
-    position: absolute;
+    /*position: absolute;*/
    
 }
-.BannerRegistro{
-    position: relative;
-}
+/*.BannerRegistro{
+    /*position: relative;*/
+/*}*/
+
 .seguir{
     color: #fff;
 }
@@ -31,10 +32,10 @@
     border-radius: 20px;
     background-color: #fff;
     box-shadow: -1.17px 67px 98px #16419417;
-    float: right;
+    /*float: right;
     margin-right: 1%;
     margin-top: 1%;
-    position: relative;
+    /*position: relative;*/
 }
 .form-control{
     margin-bottom: 10px;
@@ -83,10 +84,13 @@ button{
     margin-top: 2rem;
 
 }
+.aus{
+    display: inline;
+}
 img, video{
     max-width: 100%;
     height: auto;
-    vertical-align: middle;
+    /*vertical-align: middle;*/
     display: block;
 }
 .dedos{
@@ -96,21 +100,50 @@ img, video{
     height: 784px;
 
 }
+
+h2{
+    color: #005fc6;
+    font-family: 'monserrat-black';
+}
+.participaSi img{
+    width: 165px;
+    height: 69px;
+}
+.container-slider{
+    width: 100%;
+    margin: auto;
+}
 #slider{
     /*margin-left: 120px;
     margin-right: 230px;
     margin-top: 220px;*/
-    overflow: hidden;
+    overflow: auto;
+    block-size: 70%;
 }
 #slider ul{
     list-style-type: none;
     align-items: center;
-    /*display: flex;
+    display: flex;
     padding: 0;
     /*width: 70vw;*/
-    animation: cambio 20s infinite linear;  
+    animation: cambio 20s infinite linear; 
 }
 #slider li{
     display: inline;
-    /*padding: 10px;*/
+    padding: 10px;
     list-style: none;
+}
+@keyframes cambio {
+    /*
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}*/
+}
